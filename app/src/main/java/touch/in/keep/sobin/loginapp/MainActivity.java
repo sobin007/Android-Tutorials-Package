@@ -27,4 +27,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void round(View view){
+
+        Intent intent = new Intent(MainActivity.this,RoundButtonActivity.class);
+        startActivity(intent);
+
+    }
 }
