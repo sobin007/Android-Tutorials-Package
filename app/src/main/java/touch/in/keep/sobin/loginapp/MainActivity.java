@@ -34,4 +34,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void navDrawer(View view){
+
+        Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+        startActivity(intent);
+
+    }
 }

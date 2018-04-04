@@ -20,7 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".CollapsingToolbarActivity" />
-        <activity android:name=".RoundButtonActivity"></activity>
+        <activity android:name=".RoundButtonActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
